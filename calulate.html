@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="calculate.css">
+    <title>Age Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center mt-5">
+            <div class="col-lg-7 col-md-9 col-12">
+                <div class="card p-3 card_data">
+                    <div class="id="appBody">
+                            <h3 id="appName" class="text-center">Age Calculator</h3>
+                            <p class="input_data">Birth Date: <input type="date" class="form-control" id="bDate" required></p>
+                            <p class="input_data">Calculation Date : <input type="date" class="form-control" id="cDate" required ></p>
+                            <div class="text-center pt-3">
+                                <button class="btn btn_primary py-1 px-5" id="calButton" value="calculate" onclick="calculateDiff()">Calculate</button>
+                            </div>
+                            <h5 class="text-center mt-4 py-2 back_color" id="showAge"><b>Age:</b></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+
+</html>

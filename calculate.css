@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
+
+body{
+    font-family: 'Gotu', sans-serif;
+}
+.btn_primary{
+    border: 1px solid #000;
+    color: #000;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 2rem;
+    background-color: #fff;
+}
+
+.btn_primary:hover{
+    background-color: #a74805;
+    color: #fff;
+}
+
+.card_data{
+    border-radius: 20px;
+    background-color: aliceblue;
+}
+
+.input_data{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.back_color{
+    background-color: blue;
+    color: #fff;
+}
